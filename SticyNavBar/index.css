@@ -1,0 +1,40 @@
+.outer-dev{
+    height: 500px;
+    background-color: green;
+    border: 5px solid red;
+    margin: -8px;
+}
+
+.inner-dev{
+    height: 50px;
+    background-color: blue;
+    border: 3px solid black;
+    position: sticky;
+    top: 0px;
+    text-align: center;
+}
+
+/* The `top` property in the context of `position: sticky;` determines the distance from the top of the nearest scrolling ancestor at which the element will start to stick. When you use `top: 0;`, it means that the element will start sticking as soon as it reaches the top of its containing block, which is the nearest scrolling ancestor.
+
+If you don't use the `top` property, the browser will choose a default value. The default behavior is often to make the element stick when its top edge reaches the top of the viewport. However, this behavior can vary between browsers, and explicitly setting the `top` property provides more control and consistency across different browsers.
+
+Here's a breakdown:
+
+1. **Without `top` property:**
+   ```css
+   .inner-dev {
+     position: sticky;
+   }
+   ```
+   - The browser will use its default behavior for deciding when the element should start sticking. This might be when its top edge reaches the top of the viewport.
+
+2. **With `top: 0;`:**
+   ```css
+   .inner-dev {
+     position: sticky;
+     top: 0;
+   }
+   ```
+   - This explicitly sets the sticking point to be at the top of the containing block (scrolling ancestor). The element will start sticking as soon as its top edge reaches the top of its container.
+
+The purpose of specifying the `top` property is to give you control over where the element starts sticking, allowing you to create more customized sticky behaviors based on your layout requirements. It's particularly useful when dealing with nested structures or complex layouts where the default behavior might not produce the desired effect. */

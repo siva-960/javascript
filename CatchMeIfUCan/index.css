@@ -1,0 +1,17 @@
+#container{
+    height: 600px;
+    width: auto;
+    background-color: beige;
+    display: flex;
+    /* flex-direction: column-reverse; */
+    /* align-items: center; */
+}
+
+#child-container{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

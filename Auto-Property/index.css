@@ -1,0 +1,66 @@
+/* body{
+    display: flex;
+} */
+
+#container{
+    background-color: beige;
+    height: 500px;
+    width: auto;
+    display:flex;
+    margin: auto;
+}
+
+#child-container{
+    background-color: rebeccapurple;
+    height: 200px;
+    width: 300px;
+    margin:auto;
+    display: flex;
+}
+
+#inner-div{
+    background-color:blue;
+    height: 100px;
+    width:100px;
+    margin:auto;
+    text-align: center;
+}
+
+/* In CSS, the `auto` value is used in various properties to allow the browser to automatically compute the value based on its normal behavior or content. Here's a breakdown of how `auto` is commonly used in different properties:
+
+1. **`width: auto` and `height: auto`**:
+
+   - **Purpose**: When applied to the `width` or `height` property, `auto` allows the browser to automatically determine the size of an element based on its content or the size of its parent container.
+
+   - **Rendering**: For `width`, it generally causes the element to expand to fill the available horizontal space within its container. For `height`, it usually results in the element expanding to accommodate its content.
+
+   - **Use Cases**: This is useful when you want an element's size to be flexible and adjust based on its content. For example, when you want a container to expand or shrink based on the length of the text it contains.
+
+     ```css
+     .container {
+         width: auto; Adjusts the width based on content
+         height: auto; Adjusts the height based on content
+     }
+     ```
+
+2. **`padding: auto`**:
+
+   - **Purpose**: The `padding` property with a value of `auto` is not a standard property in CSS. It's not commonly used, and the behavior may vary between browsers. In practice, you would typically use specific values for `padding` (e.g., `padding: 10px;`) to set the padding of an element.
+
+3. **`margin: auto`**:
+
+   - **Purpose**: When applied to the `margin` property, `auto` is commonly used to horizontally center block-level elements within their containing element.
+
+   - **Rendering**: It evenly distributes the remaining space on the left and right sides of the element, centering it horizontally.
+
+   - **Use Cases**: This is often used in combination with a set width to horizontally center a block-level element.
+
+     ```css
+     .centered-box {
+         width: 50%; Set a specific width
+         margin-left: auto;
+         margin-right: auto; Center the element horizontally
+     }
+     ```
+
+In summary, the `auto` value in CSS is used to let the browser automatically compute the size or spacing of an element based on its content or the layout context. It is particularly useful when you want a flexible layout that adjusts based on the content or when you want to center elements within their container. */

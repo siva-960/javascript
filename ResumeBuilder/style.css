@@ -1,0 +1,184 @@
+body{
+	margin:0px;
+}
+
+#body-header{
+	height: 65vh;
+	background-image:url(resources/macbook_mouse.jpg);
+	background-size: cover;
+	background-position: center;
+	opacity: 0.8;
+	background-attachment: fixed;
+}
+
+.horizontal-list{
+	list-style: none;
+	padding-left: 0px;
+	margin: 0px;
+}
+
+.horizontal-list li{
+	display: inline-block;
+	margin: 0px 8px 8px 0px;
+}
+
+.horizontal-list li a{
+	color: white;
+	text-decoration: none;
+/*	transition: color 0.5s, border-bottom 4s;*/
+}
+
+.nav-menu{
+	transition: color 0.5s, border-bottom 4s;
+}
+
+.nav-menu li a:hover{
+	color: lightgrey;
+	border-bottom: 1px solid white;
+}
+
+.text-center{
+	text-align: center;
+}
+
+/*h1{
+
+	text-align: center;
+	color: white;
+}*/
+
+/* .horizontal-list li img{
+	box-shadow:  rgba(230,196,196,0.3);
+} */
+
+#name-social-container{
+	margin-top: 20vh;
+}
+
+#my-name{
+	font-size: 3rem;
+	letter-spacing: 01.rem;
+	color:white;
+	font-weight: 700;
+	margin-bottom: 0.5rem;
+}
+
+.social-icons li a img{
+
+	padding:10px;
+	font-size: 1rem;
+	border-radius: 50%;
+	height: 30px;
+
+}
+
+.social-icons li a img:hover{
+	box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.3);
+}
+
+section{
+	width:100%;
+	display:flex;
+	/* height: 75vh; */
+	flex-direction: column;
+	align-items: center;
+}
+
+section:nth-child(2n){
+	background-color: white;
+}
+
+
+section:nth-child(2n+1){
+	background-color: grey;
+}
+/*About section*/
+
+#about{
+	height: auto;
+	width: 100%;
+	position: relative;
+	/* background-color: red; */
+}
+
+.section-heading{
+	width:auto;
+	padding:20px 10px 10px;
+	/* margin:10px auto; */
+	font-weight: 400;
+}
+
+.section-heading span{
+	font-size: 40px;
+	color:#2857a4;
+	display:inline-block;
+	padding-top:10px;
+	margin-right: 0.5rem;
+}
+
+#my-image{
+	height: 12rem;
+	width: 12rem;
+	margin: auto;
+	margin-top: -17vh;
+}
+
+#my-image img{
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+}
+
+#about-para {
+    padding: 10px;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: blue;
+    line-height: 28px;
+    font-weight: 100;
+    font-size: 1.1rem;
+}
+
+/* Skills section */
+
+.skills-display{
+	width:70%;
+	/* height: 100px;
+	border:2px solid black; */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.mb75px{
+	margin-bottom: 75px;
+}
+
+.skill-progress{
+	background-color: lightgray;
+	border-radius: 0.8rem;
+	/* border: 2px solid black; */
+	height: 1.4rem;
+	width: 7rem;
+}
+.eighty-five-percent{
+	text-align: center;
+	background-color: blue;
+	width: 85%;
+	height: inherit;
+	/* padding: 0px;
+	margin: 0px; */
+}
+
+.skill-name span{
+	color:white;
+	font-size: 1rem;
+	margin-left: 10px;
+}
+
+.skill-progress>div{
+	border-radius: 20px 0px 0px 20px;
+}

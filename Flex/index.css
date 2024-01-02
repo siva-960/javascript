@@ -1,0 +1,48 @@
+#container{
+    height: 75vh;
+    width: 75vh;
+    background-color: lightgrey;
+    display: flex;
+    /* defalut value for flex direction */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-; */
+    /* flex-direction: column-reverse; */
+    flex-direction: column-reverse;
+    /* flex-direction: row-reverse; */
+    /* flex-wrap: wrap; */
+    /* no-wrap is default value wrap-reverse */
+    /* justify-content: center; */
+    align-items: flex-end;
+}
+
+/* default direction of flex is row  */
+#container div{
+    height: 200px;
+    width: 200px;
+}
+
+.div1{
+    background-color: cyan;
+    /* order:1; */
+}
+
+
+.div2{
+    background-color: red;
+}
+
+
+.div3{
+    background-color: grey;
+    /* flex-shrink: 4; */
+}
+
+.div4{
+    background-color: maroon;
+    /* flex-shrink: 4; */
+}
+
+.div5{
+    background-color: orange;
+    /* flex-shrink: 1; */
+}
